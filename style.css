@@ -155,6 +155,30 @@ p{
     flex: 0 0 185px;
 }
 
+.section-3{
+    padding: 80px 13%;
+    padding-bottom: 70px;
+    background-color: #E5E7EB;
+
+    /* display: flex; */
+    /* flex-direction: column; */
+
+    justify-content: center;
+    align-items: center; 
+}
+.section-3 .quote{
+    padding: 0 70px;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: oblique;
+    color: #1f2937;
+}
+.section-3 .author{
+    padding-right: 140px;
+    font-weight: 800;
+    text-align: right;
+}
+
 .footer{
     padding: 10px 13%;
     background-color: #1f2937;
