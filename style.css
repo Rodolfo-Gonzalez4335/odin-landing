@@ -10,6 +10,10 @@ ul {
     list-style-type: none;
 }
 
+p{
+    font-size: 18px;
+}
+
 .header{
     background-color: #1f2937;
     color: white;
@@ -102,6 +106,53 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section-2 {
+    padding: 60px 13%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.section-2 .subsection {
+    padding-top: 20px;
+    padding-bottom: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box .blue-box{
+    border: 3px solid #3882F6;
+    padding: 70px 78px;
+    border-radius: 5px;
+
+    flex: 1 1 auto;
+}
+.box .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .text p {
+    text-align: center; 
+    
+    flex: 0 0 185px;
 }
 
 .footer{
